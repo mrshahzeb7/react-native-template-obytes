@@ -26,7 +26,7 @@ export const Home = () => {
         <Button
           variant="secondary"
           label="Show message"
-          onPress={() => showErrorMessage()}
+          onPress={showErrorMessage}
         />
       </View>
     </Screen>
